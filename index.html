@@ -38,21 +38,7 @@
     <div class="hero-bg"></div>
     <div class="hero-content">
       <div class="bhutan-flag-container">
-        <!-- Bhutan Flag in SVG (Simplified beautiful dragon) -->
-        <svg class="bhutan-flag" width="75" height="50" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
-          <rect width="900" height="600" fill="#f59e0b"/>
-          <path d="M 0,600 L 900,0 L 900,600 Z" fill="#ea580c"/>
-          <!-- Simplified Dragon Path -->
-          <g fill="#ffffff" stroke="#1e293b" stroke-width="8" stroke-linejoin="round" transform="translate(450, 300) scale(1.4)">
-            <path d="M -80,-30 C -90,-20 -95,0 -70,10 C -50,15 -35,5 -20,25 C -5,45 10,40 30,30 C 50,20 70,30 85,15 C 95,5 90,-15 70,-10 C 50,-5 40,-25 20,-30 C 0,-35 -30,-40 -50,-40 C -70,-40 -70,-35 -80,-30 Z"/>
-            <circle cx="-75" cy="5" r="10" fill="#ffffff" stroke="#1e293b" stroke-width="4"/>
-            <circle cx="25" cy="32" r="10" fill="#ffffff" stroke="#1e293b" stroke-width="4"/>
-            <circle cx="78" cy="-5" r="10" fill="#ffffff" stroke="#1e293b" stroke-width="4"/>
-            <circle cx="-42" cy="-35" r="10" fill="#ffffff" stroke="#1e293b" stroke-width="4"/>
-            <!-- Eye -->
-            <circle cx="65" cy="-10" r="3" fill="#1e293b"/>
-          </g>
-        </svg>
+        <img class="bhutan-flag" src="assets/bhutan_flag.png" alt="Bandera de Bután">
         <span class="hero-subtitle">Grupo Étnico</span>
       </div>
       <h1 class="hero-title">Broq-Pa<br>Bután</h1>
@@ -92,45 +78,7 @@
       <div class="map-card">
         <h3 style="margin-bottom: 1rem; font-size: 1.25rem;">Ubicación en el Sur de Asia</h3>
         <div class="map-wrapper">
-          <!-- Beautiful Interactive SVG map of India, Bhutan, Pakistan & China outline -->
-          <svg class="map-graphic" viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
-            <style>
-              .country { fill: #1e293b; stroke: #334155; stroke-width: 1.5; transition: fill 0.3s ease; }
-              .country:hover { fill: #334155; }
-              .country.active-bhutan { fill: rgba(234, 179, 8, 0.4); stroke: var(--secondary); stroke-width: 2; }
-              .country.active-india { fill: rgba(56, 189, 248, 0.15); stroke: #38bdf8; }
-              .country.active-pakistan { fill: rgba(74, 222, 128, 0.15); stroke: #4ade80; }
-              .label { font-family: var(--font-heading); font-size: 12px; font-weight: 700; fill: var(--text-muted); pointer-events: none; text-anchor: middle;}
-              .label-highlight { fill: #fff; font-size: 14px; }
-            </style>
-            
-            <!-- China (Background Outline) -->
-            <path class="country" d="M 120,40 L 400,20 L 580,80 L 580,200 L 450,220 L 320,180 Z" />
-            <text x="440" y="110" class="label">CHINA</text>
-            <!-- India -->
-            <path class="country active-india" d="M 80,180 L 160,180 L 220,240 L 260,200 L 290,210 L 320,230 L 330,245 L 305,250 L 310,270 L 340,270 L 360,250 L 400,265 L 430,245 L 460,250 L 440,290 L 380,290 L 340,320 L 290,430 L 250,330 L 180,300 L 130,250 Z" />
-            <text x="230" y="320" class="label" style="fill: #38bdf8;">INDIA</text>
-            <!-- Nepal -->
-            <path class="country" d="M 220,240 L 290,210 L 320,230 L 305,250 Z" />
-            <text x="260" y="235" class="label" style="font-size: 9px;">NEPAL</text>
-            <!-- Bhutan -->
-            <path class="country active-bhutan" d="M 320,230 L 350,225 L 360,250 L 330,245 Z" />
-            
-            <!-- Bangladesh -->
-            <path class="country" d="M 360,250 L 400,265 L 380,295 L 340,320 Z" />
-            <text x="375" y="280" class="label" style="font-size: 8px;">BANGLADESH</text>
-            <!-- Pakistan -->
-            <path class="country active-pakistan" d="M 80,180 L 130,250 L 60,260 L 20,200 L 30,120 L 120,100 L 130,150 Z" />
-            <text x="75" y="160" class="label" style="fill: #4ade80;">PAKISTÁN</text>
-            <!-- Interactive Marker for Merak Sakten -->
-            <g class="map-marker-container">
-              <!-- Animated marker placed exactly in eastern Bhutan -->
-              <foreignObject x="345" y="230" width="40" height="40">
-                <div class="map-marker"></div>
-                <div class="map-marker-tooltip">Merak Sakten, Bután</div>
-              </foreignObject>
-            </g>
-          </svg>
+          <img class="map-graphic" src="assets/bhutan_map.jpg" alt="Mapa de ubicación de Bután en Asia">
         </div>
         
         <div class="map-legend">
@@ -255,31 +203,10 @@
     <div class="footer-content">
       <div class="footer-logo-area">
         <div class="perspectivas-logo-box">
-          <!-- Globe icon in blue -->
-          <svg width="36" height="36" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="50" cy="50" r="45" stroke="#0b56a4" stroke-width="8"/>
-            <path d="M5 50H95" stroke="#0b56a4" stroke-width="6"/>
-            <path d="M50 5V95" stroke="#0b56a4" stroke-width="6"/>
-            <path d="M15 25C30 40 70 40 85 25" stroke="#0b56a4" stroke-width="5"/>
-            <path d="M15 75C30 60 70 60 85 75" stroke="#0b56a4" stroke-width="5"/>
-            <path d="M25 15C40 30 40 70 25 85" stroke="#0b56a4" stroke-width="5"/>
-            <path d="M75 15C60 30 60 70 75 85" stroke="#0b56a4" stroke-width="5"/>
-          </svg>
-          <div class="perspectivas-text">
-            <span class="perspectivas-title">Perspectivas</span>
-            <span class="perspectivas-subtitle">del Movimiento Cristiano Mundial</span>
-          </div>
+          <img src="assets/perspectivas_logo.png" alt="Perspectivas del Movimiento Cristiano Mundial" style="height: 44px; width: auto;">
         </div>
       </div>
       <div class="footer-links-area">
-        <div class="footer-col">
-          <h4>Recursos</h4>
-          <ul>
-            <li><a href="https://perspectivas.org" target="_blank">Sitio Web Oficial</a></li>
-            <li><a href="https://perspectivas.org/cursos" target="_blank">Cursos Disponibles</a></li>
-            <li><a href="https://joshuaproject.net/people_groups/10986/BT" target="_blank">Perfil en Joshua Project</a></li>
-          </ul>
-        </div>
         <div class="footer-col">
           <h4>Secciones</h4>
           <ul>
@@ -292,7 +219,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 Perspectivas. Diseñado con fines informativos y de movilización misionera.</p>
+      <p>&copy; 2026 <a href="https://linktr.ee/benditopapel.ar" target="_blank">@Benditopapel.ar</a> Diseñado con fines informativos y de movilización misionera.</p>
       <p>Material de Oración de los Himalayas</p>
     </div>
   </footer>
